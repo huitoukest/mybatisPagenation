@@ -1,15 +1,15 @@
-﻿#声明
+# 声明
 
 此项目使用和修改了部分[MyBatis-plus](https://github.com/baomidou/mybatis-plus)代码.
 
-#功能简介
+# 功能简介
 
 用于对MyBatis3.x物理分页的简单支持
 
-#使用
-##依赖
+# 使用
+## 依赖
 依赖于MyBatis3.x
-##配置
+## 配置
 - MyBatis插件配置
 ```
 <?xml version="1.0" encoding="UTF-8" ?>  
@@ -33,7 +33,7 @@
   </context>
 </generatorConfiguration>
 ```
-##使用
+## 使用
 - 使用官方自带的rowbounds
 ```java
 public void testSelecttUserInfo() throws Exception{    
@@ -81,5 +81,5 @@ public void testSelecttUserInfo2() throws Exception{
         System.out.println(users.size());
     }
 ```
-#支持
+# 支持
 支持常见的数据库有:mysql;oracle;postgre;sqlite;sqlserver;h2;hsql
