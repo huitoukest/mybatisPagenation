@@ -1,8 +1,8 @@
-﻿#声明
+# 声明
 
 此项目使用和修改了部分[MyBatis-plus](https://github.com/baomidou/mybatis-plus)代码.
 
-#功能简介
+# 功能简介
 
 用于对MyBatis3.x物理分页的简单支持
 
